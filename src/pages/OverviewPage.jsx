@@ -2,11 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import StatCard from "../components/StatCard";
 import { motion } from "framer-motion";
-import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react";
-import { stats } from "../utils/constants";
-import SalesPverviewChart from "../components/overview/SalesPverviewChart";
 import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
 import SalesChannelChart from "../components/overview/SalesChannelChart";
+import SalesPreviewChart from "../components/overview/SalesPreviewChart";
+import { STATS } from "../utils/constants";
 function OverviewPage() {
   return (
     <div className="flex-1 overflow-auto relative z-10">
@@ -18,7 +17,7 @@ function OverviewPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          {stats.map((stat, index) => (
+          {STATS.map((stat, index) => (
             <StatCard
               key={index}
               name={stat.name}
@@ -30,7 +29,7 @@ function OverviewPage() {
         </motion.div>
         {/* CHARTS */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <SalesPverviewChart />
+          <SalesPreviewChart />
           <CategoryDistributionChart />
           <SalesChannelChart />
         </div>

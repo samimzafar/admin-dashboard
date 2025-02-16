@@ -24,7 +24,7 @@ export const SIDEBAR_ITEMS = [
   { name: "Settings", icon: Settings, color: "#6EE7B7", href: "/settings" },
 ];
 
-export const stats = [
+export const STATS = [
   { name: "Total Sales", icon: Zap, value: "$12,345", color: "#6366F1" },
   { name: "New Users", icon: Users, value: "1,234", color: "#8B5CF6" },
   { name: "Total Products", icon: ShoppingBag, value: "567", color: "#EC4899" },
@@ -36,7 +36,7 @@ export const stats = [
   },
 ];
 
-export const salesData = [
+export const SALES_DATA = [
   { name: "Jul", sales: 4200 },
   { name: "Aug", sales: 3800 },
   { name: "Sep", sales: 5100 },
@@ -50,7 +50,7 @@ export const salesData = [
   { name: "May", sales: 7100 },
   { name: "Jun", sales: 7500 },
 ];
-export const categoryData = [
+export const CATEGORY_DATA = [
   { name: "Electronics", value: 4500 },
   { name: "Clothing", value: 3200 },
   { name: "Home & Garden", value: 2800 },
@@ -60,7 +60,7 @@ export const categoryData = [
 
 export const COLORS = ["#6366F1", "#8B5CF6", "#EC4899", "#10B981", "#F59E0B"];
 
-export const SalesChannelData = [
+export const SALES_CHANNEL_DATA = [
   { name: "Website", value: 43600 },
   { name: "Mobile App", value: 26000 },
   { name: "Marketplace", value: 35500 },
