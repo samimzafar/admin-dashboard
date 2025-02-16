@@ -1,0 +1,36 @@
+{
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "vscode-icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tabnine.experimentalAutoImports": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "editor.fontSize": 15,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "colorize.languages": ["javascript"],
+  "colorize.colorized_colors": ["HEXA"],
+  "editor.colorDecorators": true,
+  "editor.colorDecoratorsActivatedOn": "hover",
+  "editor.defaultColorDecorators": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}
